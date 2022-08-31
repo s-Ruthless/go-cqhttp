@@ -9,6 +9,7 @@ public class GoCqhttpApplication {
     public static void main(String[] args) {
 
         SpringApplication.run(GoCqhttpApplication.class, args);
+
     }
 
 }

@@ -12,7 +12,7 @@ public class PrivateServiceImpl implements PrivateService {
     @Override
     public void sendMsg(String user_id) {
         HttpUtil httpUtil=new HttpUtil();
-        httpUtil.doGet(url);
+
         System.out.println(user_id);
     }
 }

@@ -18,19 +18,15 @@ public class MainController {
     @Autowired
     private GroupService groupService;
 
-    /**
+     /**
      * 获取消息类型
      */
     @PostMapping("/msg")
-    public void selectById(@RequestBody Map<Object, Object> params) {
+    public void selectById(@RequestBody Map<String, Object> params) {
         String post_type = (String) params.get("post_type");
         String message_type = (String) params.get("message_type");
-        Object sender=params.get("sender");
-        //System.out.println(sender);
-        int group_id = (int) params.get("group_id");
-        String message = (String) params.get("message");
         if (post_type.equals("message") && message_type.equals("group")) {
-            groupService.sendMsg(group_id, message);
+            groupService.groupMain(params);
         }
         if (post_type.equals("message") && message_type.equals("private")) {
             privateService.sendMsg("group_id");

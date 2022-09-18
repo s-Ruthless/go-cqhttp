@@ -1,8 +1,11 @@
-2022-09-18 12:18:05.217 - Starting GoCqhttpApplication on DESKTOP-QLS4NQC with PID 2044 (D:\ideaProject\go-cqhttp\target\classes started by 25023 in D:\ideaProject\go-cqhttp)
-2022-09-18 12:18:05.222 - The following profiles are active: test
-2022-09-18 12:18:05.789 - Initializing ProtocolHandler ["http-nio-8080"]
-2022-09-18 12:18:05.789 - Starting service [Tomcat]
-2022-09-18 12:18:05.789 - Starting Servlet engine: [Apache Tomcat/9.0.41]
-2022-09-18 12:18:05.836 - Initializing Spring embedded WebApplicationContext
-2022-09-18 12:18:07.052 - Starting ProtocolHandler ["http-nio-8080"]
-2022-09-18 12:18:07.070 - Started GoCqhttpApplication in 2.076 seconds (JVM running for 3.141)
+2022-09-18 12:28:05.824 - Starting GoCqhttpApplication on DESKTOP-QLS4NQC with PID 22116 (D:\ideaProject\go-cqhttp\target\classes started by 25023 in D:\ideaProject\go-cqhttp)
+2022-09-18 12:28:05.831 - The following profiles are active: test
+2022-09-18 12:28:06.394 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-18 12:28:06.394 - Starting service [Tomcat]
+2022-09-18 12:28:06.394 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-18 12:28:06.441 - Initializing Spring embedded WebApplicationContext
+2022-09-18 12:28:07.576 - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-18 12:28:07.593 - Started GoCqhttpApplication in 2.003 seconds (JVM running for 3.096)
+2022-09-18 12:28:12.465 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 12:28:13.470 - 发送成功啦：{"data":{"message_id":561128335},"retcode":0,"status":"ok"}
+2022-09-18 12:28:43.074 - 发送成功啦：{"data":{"message_id":-938375494},"retcode":0,"status":"ok"}

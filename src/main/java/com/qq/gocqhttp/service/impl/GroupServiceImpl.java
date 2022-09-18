@@ -43,10 +43,11 @@ public class GroupServiceImpl implements GroupService {
         jsonObj.put("auto_escape", "false");
         String string = httpUtil.doPost(sendUrl, jsonObj.toString());
         JSONObject jsonObject = JSON.parseObject(string);
-        System.out.println(jsonObject);
-        System.out.println(jsonObject.get("status"));
-        logger.info("发送成功啦："+ jsonObject);
-
+        if ("ok".equals(jsonObject.get("status"))){
+            logger.info("发送成功啦："+ jsonObject);
+        }else{
+            logger.error("发送失败啦！："+ jsonObject);
+        }
     }
 
 

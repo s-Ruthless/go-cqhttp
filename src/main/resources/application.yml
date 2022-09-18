@@ -1,12 +1,13 @@
+author:
+  name: s-Ruthless
+  version: 1.0
+
 server:
   tomcat:
     uri-encoding: UTF-8
   port: 8080
   servlet:
     context-path: /
-
-send:
-  url: http://127.0.0.1:5700
 
 spring:
   profiles:
@@ -25,14 +26,13 @@ spring:
     time-zone: GMT+8
     serialization:
       write-dates-as-timestamps: false
+
 logging:
   config: classpath:log4j2.xml
-
 
 mybatis-plus:
   global-config:
     banner: false
 
-author:
-  name: s-Ruthless
-  version: 1.0
+send:
+  url: http://127.0.0.1:5700

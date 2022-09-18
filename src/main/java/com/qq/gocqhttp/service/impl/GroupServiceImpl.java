@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.qq.gocqhttp.service.GroupService;
 import com.qq.gocqhttp.utils.HttpUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +15,8 @@ import java.util.Map;
 public class GroupServiceImpl implements GroupService {
     @Value("${send.url}")
     private String url;
+    Logger logger= LoggerFactory.getLogger(GroupServiceImpl.class);
+
 
     HttpUtil httpUtil=new HttpUtil();
     JSONObject jsonObj = new JSONObject();
@@ -41,6 +45,8 @@ public class GroupServiceImpl implements GroupService {
         JSONObject jsonObject = JSON.parseObject(string);
         System.out.println(jsonObject);
         System.out.println(jsonObject.get("status"));
+        logger.info("发送成功啦："+ jsonObject);
+
     }
 
 

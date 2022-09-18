@@ -25,9 +25,6 @@ spring:
     time-zone: GMT+8
     serialization:
       write-dates-as-timestamps: false
-logging:
-  config: classpath:log4j2.xml
-
 
 mybatis-plus:
   global-config:

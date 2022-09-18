@@ -26,6 +26,10 @@ spring:
     time-zone: GMT+8
     serialization:
       write-dates-as-timestamps: false
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    prefix: classpath:/view/
 
 logging:
   config: classpath:log4j2.xml

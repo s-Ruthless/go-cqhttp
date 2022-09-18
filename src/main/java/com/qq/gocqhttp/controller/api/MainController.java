@@ -1,4 +1,4 @@
-package com.qq.gocqhttp.controller;
+package com.qq.gocqhttp.controller.api;
 
 import com.qq.gocqhttp.service.GroupService;
 import com.qq.gocqhttp.service.PrivateService;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/main")
+@RequestMapping("/api")
 public class MainController {
     @Autowired
     private PrivateService privateService;
@@ -21,7 +21,7 @@ public class MainController {
      /**
      * 获取消息类型
      */
-    @PostMapping("/msg")
+    @PostMapping("/main")
     public void selectById(@RequestBody Map<String, Object> params) {
         String post_type = (String) params.get("post_type");
         String message_type = (String) params.get("message_type");

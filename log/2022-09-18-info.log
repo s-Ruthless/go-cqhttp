@@ -17,3 +17,44 @@
 2022-09-18 12:28:12.465 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-09-18 12:28:13.470 - 发送成功啦：{"data":{"message_id":561128335},"retcode":0,"status":"ok"}
 2022-09-18 12:28:43.074 - 发送成功啦：{"data":{"message_id":-938375494},"retcode":0,"status":"ok"}
+2022-09-18 22:15:38.922 - Starting GoCqhttpApplication on DESKTOP-QLS4NQC with PID 4044 (D:\ideaProject\go-cqhttp\target\classes started by 25023 in D:\ideaProject\go-cqhttp)
+2022-09-18 22:15:38.927 - The following profiles are active: test
+2022-09-18 22:15:39.571 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-18 22:15:39.571 - Starting service [Tomcat]
+2022-09-18 22:15:39.571 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-18 22:15:39.617 - Initializing Spring embedded WebApplicationContext
+2022-09-18 22:15:40.808 - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-18 22:15:40.826 - Started GoCqhttpApplication in 2.137 seconds (JVM running for 3.271)
+2022-09-18 22:16:17.470 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 22:16:23.911 - 发送成功啦：{"data":{"message_id":232066168},"retcode":0,"status":"ok"}
+2022-09-18 22:29:29.590 - Starting GoCqhttpApplication on DESKTOP-QLS4NQC with PID 10416 (D:\ideaProject\go-cqhttp\target\classes started by 25023 in D:\ideaProject\go-cqhttp)
+2022-09-18 22:29:29.595 - The following profiles are active: test
+2022-09-18 22:29:30.181 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-18 22:29:30.182 - Starting service [Tomcat]
+2022-09-18 22:29:30.182 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-18 22:29:30.236 - Initializing Spring embedded WebApplicationContext
+2022-09-18 22:29:30.416 - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-09-18 22:29:31.404 - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-18 22:29:31.421 - Started GoCqhttpApplication in 2.058 seconds (JVM running for 3.166)
+2022-09-18 22:29:50.152 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 22:30:03.630 - Starting GoCqhttpApplication on DESKTOP-QLS4NQC with PID 18656 (D:\ideaProject\go-cqhttp\target\classes started by 25023 in D:\ideaProject\go-cqhttp)
+2022-09-18 22:30:03.634 - The following profiles are active: test
+2022-09-18 22:30:04.224 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-18 22:30:04.224 - Starting service [Tomcat]
+2022-09-18 22:30:04.225 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-18 22:30:04.277 - Initializing Spring embedded WebApplicationContext
+2022-09-18 22:30:04.459 - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-09-18 22:30:05.457 - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-18 22:30:05.476 - Started GoCqhttpApplication in 2.075 seconds (JVM running for 3.16)
+2022-09-18 22:30:09.709 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 22:31:14.290 - Starting GoCqhttpApplication on DESKTOP-QLS4NQC with PID 12508 (D:\ideaProject\go-cqhttp\target\classes started by 25023 in D:\ideaProject\go-cqhttp)
+2022-09-18 22:31:14.296 - The following profiles are active: test
+2022-09-18 22:31:14.902 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-18 22:31:14.902 - Starting service [Tomcat]
+2022-09-18 22:31:14.902 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-09-18 22:31:14.956 - Initializing Spring embedded WebApplicationContext
+2022-09-18 22:31:15.141 - [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-09-18 22:31:16.127 - Starting ProtocolHandler ["http-nio-8080"]
+2022-09-18 22:31:16.146 - Started GoCqhttpApplication in 2.086 seconds (JVM running for 3.167)
+2022-09-18 22:31:20.337 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-18 22:31:47.600 - 发送成功啦：{"data":{"message_id":-833568435},"retcode":0,"status":"ok"}
